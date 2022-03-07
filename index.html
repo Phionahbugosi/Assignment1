@@ -2,8 +2,44 @@
 <html>
     <head>
         <title>first page - CodeQueen</title>
+        <style>
+            /* selector {rule:value;}
+            -elementt/tagslector */
+            body{
+                margin: 10px;
+                background-color: rgb(63, 63, 95);
+                color: #f2f2f2;
+               
+            }
+            p {
+                margin-left: 5px;
+                }
+            #first {
+                color: rgb(40, 26, 102);
+                background-color: rgb(30, 23, 35);
+                color: red;
+                font-size: 16px;
+                padding: 2opx;
+                
+    
+                }
+                p.third {
+                    width: 50%;
+                    float: left;
+
+                }
+                p.second{
+                    width: 50%;
+                    float: right;
+                }
+                span{
+                    background: rgba(0, 0,0, 0);
+                    padding: 3px;
+                }
+            
+        </style>
     </head>
-    <body>
+    <body style="background-color: rgb(12, 2, 12);">
         <header>
             <nav>
                 <a href="./index.html">Home</a>
@@ -11,7 +47,7 @@
                 <a href="./FAQ.html" target="_blank">FAQ</a><!--navigate to new tab-->
             </nav>
         </header>
-        <h3>breakfast menue</h3>
+        <h3 style="color: aqua; font-size: 12px;">breakfast menue</h3>
         <ul type="square">
             <li>eggs</li>
             <li>black tea</li>
@@ -23,18 +59,24 @@
             <li>beef</li>
             <li>matooke</li>
         </ol>
-        <h1>Iam a heading</h1>
-        <h2>Iam a heading</h2>
-        <h3>Iam a heading</h3>
-        <h4>Iam a heading</h4>
-        <h5>Iam a heading</h5>
-        <h6>Iam a heading</h6>
-        <p>Lorem ipsum dolor sit amet consectetur 
+        <h3>sample heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur 
          adipisicing elit. Tempora aut soluta et provident
          magnam aperiam similique nobis iure odio aspernatur<br>
          saepe, architecto dolorum maxime velit deleniti
          optio doloribus earum veritatis?</p>
-              <p>
+              <p class="second" >
+                  <span>sample heading two</span>
+                  <br>
+                Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Tempora aut soluta et provident
+                magnam aperiam similique nobis iure odio aspernatur
+                , saepe, architecto dolorum maxime velit deleniti
+                optio doloribus earum veritatis   
+              </p>
+              <p class="third" >
+                  <span>sample heading three</span>
+                  <br>
                 Lorem ipsum dolor sit amet consectetur 
                 adipisicing elit. Tempora aut soluta et provident
                 magnam aperiam similique nobis iure odio aspernatur
